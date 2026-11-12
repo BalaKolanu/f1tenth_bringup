@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>f1tenth_bringup</name>
+  <version>0.1.0</version>
+  <description>F1TENTH mapping and autonomy orchestration for the current ROS 2 stack.</description>
+  <maintainer email="bkolanu@purdue.edu">Bala Kolanu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>f1tenth_stack</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
